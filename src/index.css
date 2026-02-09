@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+:root {
+    --color-main: #eedb00;
+    --bg-color-gray: rgba(60, 69, 67, 0.6);
+    --bg-color-danger: rgba(204, 3, 35, 0.5);
+}
+body {
+    font-family: "Poller One", sans-serif;
+    background-image: url("../../29-star-wars-react/src/assets/sky.jpg");
+    color: var(--color-main);
+    background-attachment: fixed;
+}
+header, footer {
+    background-color: var(--bg-color-gray);
+}
+footer {
+    height: 5em;
+}
