@@ -7,7 +7,7 @@
 }
 body {
     font-family: "Poller One", sans-serif;
-    background-image: url("../../29-star-wars-react/src/assets/sky.jpg");
+    background-image: url("../public/sky.jpg");
     color: var(--color-main);
     background-attachment: fixed;
 }
