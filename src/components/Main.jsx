@@ -1,4 +1,4 @@
-import DreamTeam from "./DreamTeam.jsx";
+import DreamTeam     from "./DreamTeam.jsx";
 import Hero from "./Hero.jsx";
 import OpeningCrawl from "./OpeningCrawl.jsx";
 

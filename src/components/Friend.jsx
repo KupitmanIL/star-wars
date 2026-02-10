@@ -1,14 +1,14 @@
-const Friend = ({friend,pos}) => {
-    let styles = "col-sm-4 p-1";
-    if (pos === 9) {
-        styles += "rounded-bottom-right";
-    }
-    if (pos === 7) {
-        styles += "rounded-bottom-left";
-    }
-    return (
-        <img className={styles} src={friend} alt="Friend"/>
-    );
+import { FriendsStyle, FriendsRoundedPositions } from "../utils/constants.js";
+
+const Friend = ({ src, index }) => {
+    const className = [
+        FriendsStyle,
+        FriendsRoundedPositions[index],
+    ]
+        .filter(Boolean)
+        .join(" ");
+
+    return <img className={className} src={src} alt="Friend" />;
 };
 
 export default Friend;
