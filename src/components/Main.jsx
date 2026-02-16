@@ -2,11 +2,9 @@ import Home from "./Home.jsx";
 import AboutMe from "./AboutMe.jsx";
 import Contact from "./Contact.jsx";
 import StarWars from "./StarWars.jsx";
-import {useState} from "react";
 import {navItems} from "../utils/constants.js";
 
-const Main = () => {
-    const [page, setPage] = useState(navItems[3]);
+const Main = ({page}) => {
 
     switch (page) {
         case navItems[1]:
