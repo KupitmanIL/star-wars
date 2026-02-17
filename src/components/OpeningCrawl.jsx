@@ -1,9 +1,9 @@
-import {openingCrawlText} from '../utils/constants.js';
+import {openingCrawl} from "../utils/constants.js";
+
 const OpeningCrawl = () => {
     return (
-        <p className="far-galaxy">{openingCrawlText}
-        </p>
-    );
-};
+        <p className="far-galaxy">{openingCrawl}</p>
+    )
+}
 
 export default OpeningCrawl;

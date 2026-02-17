@@ -1,5 +1,5 @@
-import DreamTeam     from "./DreamTeam.jsx";
 import Hero from "./Hero.jsx";
+import DreamTeam from "./DreamTeam.jsx";
 import OpeningCrawl from "./OpeningCrawl.jsx";
 
 const Main = () => {
@@ -9,7 +9,7 @@ const Main = () => {
             <DreamTeam/>
             <OpeningCrawl/>
         </main>
-    );
-};
+    )
+}
 
 export default Main;
