@@ -26,6 +26,7 @@ function saveHeroToStorage(hero) {
             JSON.stringify({ savedAt: Date.now(), data: hero })
         );
     } catch {
+
     }
 }
 
