@@ -8,6 +8,18 @@ import friend7 from '../assets/friend7.jpg'
 import friend8 from '../assets/friend8.jpg'
 import friend9 from '../assets/friend9.jpg'
 
+export const getPlanets = async () => {
+    try {
+        const res = await fetch(`${base_url}/v1/planets`);
+        const data = await res.json();
+        const list = data;
+        return Array.isArray(list) ? list : [];
+    } catch (e) {
+        console.error("getPlanets error:", e);
+        return [];
+    }
+};
+
 export const base_url = `https://sw-info-api.herokuapp.com`
 export const navItems = ['Home', 'About me', 'Star Wars', 'Contact'];
 export const friends = [friend1, friend2, friend3, friend4, friend5, friend6, friend7, friend8, friend9];
