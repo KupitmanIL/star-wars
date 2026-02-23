@@ -22,3 +22,20 @@ main > .float-start {
     color: var(--color-main);
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.column {
+    width: 50%;
+}
+
+.column img {
+    width: 100%;
+}

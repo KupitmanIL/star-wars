@@ -24,17 +24,17 @@ const Contact = () => {
     }
     else {
         return (
-            <div className="container">
+            <div className="flex-container">
                 <div >
                     <h2>Contact Us</h2>
                     <p>We will answer you at cosmic speed!</p>
                 </div>
                 <div className="row">
                     <div className="column">
-                        <img src={friends[6]} style={{ width: '33%' }} />
+                        <img src={friends[6]} style={{ width: "45%" }} />
                     </div>
-                    <div className="column" style={{ width: '100%'  }}>
-                        <form >
+                    <div className="column" style={{ width: '45%' }}>
+                        <form>
                             <label htmlFor="fname">First Name</label>
                             <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
                             <label htmlFor="lname">Last Name</label>

@@ -1,6 +1,5 @@
 import { base_url } from "../utils/constants.js";
 import { useEffect, useState } from "react";
-import {TTL_MS} from "../utils/constants.js";
 
 const STORAGE_KEY_ABOUT = "hero_v1_peoples_1";
 
